@@ -2,10 +2,10 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className='leading-6'>
+    <main className='leading-6 text-white'>
       {/* HERO SECTION */}
       <div className='w-[100%] my-16'>
-        <p className="text-center text-[1.3rem] font-semibold bg-gradient-to-r from-black to-transparent text-transparent bg-clip-text"
+        <p className="text-center text-[1.3rem] font-semibold bg-gradient-to-r from-white to-transparent text-transparent bg-clip-text"
         >AI&sup2;THOR</p>
       </div>
 
@@ -74,7 +74,7 @@ export default function Home() {
 
           <div className='w-[100%] flex pl-5 border-t-2'>
             <p className='font-extrabold align-middle p-2'>{`>`}</p>
-            <input type='text' className='animate-blink cursor-text w-[100%] outline-none p-2' placeholder='Ask me about AI development...'/>
+            <input type='text' className='bg-white cursor-text w-[100%] outline-none p-2 text-black' placeholder='Ask me about AI development...'/>
           </div>
         </div>
 
